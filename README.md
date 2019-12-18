@@ -14,6 +14,10 @@ https://www.bilibili.com/video/av32291420?p=
 
 233 主界面布局 MainActivity ToolBar BottomBar
 
+234 ToolBar的标题，菜单按钮处理 ToolBarManager
+
+
+
 
 
 
