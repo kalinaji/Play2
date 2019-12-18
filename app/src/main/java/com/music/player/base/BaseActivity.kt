@@ -2,7 +2,9 @@ package com.music.player.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.music.player.ui.activity.MainActivity
 import org.jetbrains.anko.AnkoLogger
+import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 
 /**
@@ -47,5 +49,13 @@ abstract class BaseActivity : AppCompatActivity(),AnkoLogger {
     }
 
 
+    /**
+     * 开启activity并且finish当前界面
+     * 内联函数inline 支持 关键字reified 实现泛型
+     */
+    inline fun <reified T:BaseActivity> startActivityAndFinish(){
+        startActivity<T>()
+        finish()
+    }
 }
 

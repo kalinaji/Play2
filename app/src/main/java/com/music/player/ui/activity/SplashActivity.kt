@@ -30,8 +30,7 @@ class SplashActivity : BaseActivity(), ViewPropertyAnimatorListener {
     }
 
     override fun onAnimationEnd(view: View?) {
-        startActivity<MainActivity>()
-        finish()
+        startActivityAndFinish<MainActivity>()
     }
 
     override fun onAnimationCancel(view: View?) {
