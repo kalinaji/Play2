@@ -12,6 +12,9 @@ https://www.bilibili.com/video/av32291420?p=
 
 232 抽取startActivityAndFinish
 
+233 主界面布局 MainActivity ToolBar BottomBar
+
+
 
 
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <tab
+        id="@+id/tba_1"
+        icon="@mipmap/ic_launcher"
+        title="首页" />
+    <tab
+        id="@+id/tba_2"
+        icon="@mipmap/ic_launcher"
+        title="MV" />
+    <tab
+        id="@+id/tba_3"
+        icon="@mipmap/ic_launcher"
+        title="V榜" />
+    <tab
+        id="@+id/tba_4"
+        icon="@mipmap/ic_launcher"
+        title="悦单" />
+</PreferenceScreen>
