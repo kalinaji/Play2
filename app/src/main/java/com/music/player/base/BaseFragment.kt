@@ -68,7 +68,7 @@ abstract class BaseFragment : Fragment() ,AnkoLogger{
     /**
      *  吐司
      */
-    protected open fun myToast(msg:String){
+    protected fun myToast(msg:String){
         context?.runOnUiThread { toast(msg) }
     }
 }

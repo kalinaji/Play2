@@ -17,8 +17,15 @@ abstract class BaseActivity : AppCompatActivity(),AnkoLogger {
         super.onCreate(savedInstanceState)
         setContentView(getLayoutId())
         initListener()
+        initData()
     }
 
+    /**
+     * 初始化数据
+     */
+    protected open fun initData() {
+
+    }
     /**
      * 初始化操作
      */
@@ -35,7 +42,7 @@ abstract class BaseActivity : AppCompatActivity(),AnkoLogger {
     /**
      *  吐司
      */
-    protected open fun myToast(msg:String){
+    protected fun myToast(msg:String){
         runOnUiThread{ toast(msg)}
     }
 
