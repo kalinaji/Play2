@@ -1,11 +1,9 @@
 package com.music.player.util
 
 import android.content.Intent
-import android.view.MenuItem
 import androidx.appcompat.widget.Toolbar
 import com.music.player.R
 import com.music.player.ui.activity.SettingActivity
-
 
 /**
  * @ClassName:   ToolBarManager
@@ -37,4 +35,17 @@ interface ToolBarManager {
             true
         }
     }
+
+
+    /**
+     * 初始化主界面的ToolBar
+     */
+    fun initSettingToolBar(){
+        toolbar.setTitle(R.string.setting)
+    }
+
+
 }
+
+
+

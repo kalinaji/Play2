@@ -16,8 +16,9 @@ https://www.bilibili.com/video/av32291420?p=
 
 234 ToolBar的标题，菜单按钮处理 ToolBarManager
 
-235 设置页面 SettingActivity 设置菜单点击事件处理
+235 设置界面 SettingActivity 设置菜单点击事件处理
 
+236 设置界面 SettingFragment
 
 
 
