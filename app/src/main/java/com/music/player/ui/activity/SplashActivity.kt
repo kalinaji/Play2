@@ -6,7 +6,6 @@ import androidx.core.view.ViewPropertyAnimatorListener
 import com.music.player.R
 import com.music.player.base.BaseActivity
 import kotlinx.android.synthetic.main.activity_splash.*
-import org.jetbrains.anko.startActivity
 
 /**
  * @ClassName:   SplashActivity

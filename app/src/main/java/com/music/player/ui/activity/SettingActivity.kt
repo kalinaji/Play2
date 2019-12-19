@@ -1,5 +1,6 @@
 package com.music.player.ui.activity
 
+import android.preference.PreferenceManager
 import androidx.appcompat.widget.Toolbar
 import com.music.player.R
 import com.music.player.base.BaseActivity
@@ -23,5 +24,9 @@ class SettingActivity : BaseActivity(),ToolBarManager {
 
     override fun initData() {
         initSettingToolBar()
+        // 获取推送通知有没有选中
+        val sp = PreferenceManager.getDefaultSharedPreferences(this)
+        val push = sp.getBoolean("push",false)
+        println("push=$push")
     }
 }

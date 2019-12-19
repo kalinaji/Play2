@@ -20,6 +20,8 @@ https://www.bilibili.com/video/av32291420?p=
 
 236 设置界面 SettingFragment
 
+237 设置界面 关于界面 AboutActivity
+
 
 
 
