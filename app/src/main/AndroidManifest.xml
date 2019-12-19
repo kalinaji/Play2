@@ -25,6 +25,11 @@
         <activity
             android:name=".ui.activity.MainActivity"
             />
+
+        <activity
+            android:name=".ui.activity.SettingActivity"
+            />
+
     </application>
 
 </manifest>
