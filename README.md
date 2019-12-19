@@ -22,6 +22,8 @@ https://www.bilibili.com/video/av32291420?p=
 
 237 设置界面 关于界面 AboutActivity
 
+238 主界面的Tab切换 HomeFragment MVFragment VBangFragment YueDanFragment
+
 
 
 

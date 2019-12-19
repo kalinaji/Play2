@@ -5,6 +5,7 @@ import androidx.appcompat.widget.Toolbar
 import com.music.player.R
 import com.music.player.base.BaseActivity
 import com.music.player.util.ToolBarManager
+import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.find
 
 /**
@@ -25,4 +26,17 @@ class MainActivity : BaseActivity(),ToolBarManager {
     override fun initData() {
         initMainToolBar()
     }
+
+    override fun initListener() {
+        // 设置tab切换监听
+        bottomBar.setOnTabReselectListener {
+           // it 代表参数ID
+        }
+    }
+
 }
+
+
+
+
+
